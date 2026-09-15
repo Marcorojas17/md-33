@@ -4,7 +4,6 @@ author: Fideicomiso Ciego 07
 baseurl: "/md-33"
 url: "https://marcorojas17.github.io"
 markdown: kramdown
-permalink: pretty
 
 kramdown:
   input: GFM
