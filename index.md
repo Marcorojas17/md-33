@@ -1,8 +1,16 @@
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- MD-33 · SISTEMA FORENSE · v1.0                                         -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
+---
+layout: default
+title: Inicio
+---
 
-<div align="center">
+<div class="home-hero">
+  <div class="hero-badge">▸ SISTEMA ACTIVO · TRAZA 2607086319439</div>
+  <h1>MD-33 <span>FORENSE</span></h1>
+  <p>Manual de Trazabilidad · Cadena de Custodia · Fideicomiso Ciego 07</p>
+  <div class="hero-status">
+    <span class="dot-live"></span> TRAZABILIDAD ACTIVA · ONLINE / SECURE
+  </div>
+</div>
 
 ```text
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -23,13 +31,14 @@
 ║ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+{: .ascii }
 
-[![Estado](https://img.shields.io/badge/estado-trazabilidad%20activa-00ff41?style=for-the-badge&labelColor=0a0d10)](https://github.com/Marcorojas17/md-33)
-[![Folio](https://img.shields.io/badge/folio-2607086319439-ffcc00?style=for-the-badge&labelColor=0a0d10)](https://github.com/Marcorojas17/md-33)
-[![Hash](https://img.shields.io/badge/SHA--256-a3f9c82e…5f801-8b5cf6?style=for-the-badge&labelColor=0a0d10)](https://github.com/Marcorojas17/md-33)
-[![Safe Creative](https://img.shields.io/badge/safe%20creative-2607086319439-ff00ff?style=for-the-badge&labelColor=0a0d10)](https://www.safecreative.org/certificate/2607086319439)
-[![Ethereum](https://img.shields.io/badge/ethereum-anclado-00ffff?style=for-the-badge&labelColor=0a0d10)](https://etherscan.io/tx/0x8ca8e84e1258abac9acb29d14d25114e4775d782ecfda51ae29933247ed2970e)
-
+<div class="home-badges">
+  <img src="https://img.shields.io/badge/estado-trazabilidad%20activa-00ff41?style=for-the-badge&labelColor=0a0d10" alt="Estado">
+  <img src="https://img.shields.io/badge/folio-2607086319439-ffcc00?style=for-the-badge&labelColor=0a0d10" alt="Folio">
+  <img src="https://img.shields.io/badge/SHA--256-a3f9c82e…5f801-8b5cf6?style=for-the-badge&labelColor=0a0d10" alt="Hash">
+  <img src="https://img.shields.io/badge/safe%20creative-2607086319439-ff00ff?style=for-the-badge&labelColor=0a0d10" alt="Safe Creative">
+  <img src="https://img.shields.io/badge/ethereum-anclado-00ffff?style=for-the-badge&labelColor=0a0d10" alt="Ethereum">
 </div>
 
 ```text
@@ -43,7 +52,7 @@
 
 ---
 
-## 🎯 ÍNDICE DEL EXPEDIENTE
+## 🎯 Índice del Expediente
 
 <div class="home-grid">
   <a class="home-card" href="{{ '/manual/' | relative_url }}">
@@ -68,7 +77,7 @@
 
 ---
 
-## ⚠️ ADVERTENCIA LEGAL
+## ⚠️ Advertencia Legal
 
 **El Cristal MD-33 es un activo forense auto-validable.**
 
