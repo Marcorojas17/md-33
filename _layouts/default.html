@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  {% include head.html %}
+</head>
+<body class="layout-{{ page.layout | default: 'default' }}">
+  <div class="scanlines" aria-hidden="true"></div>
+  {% include header.html %}
+  <main class="site-main" role="main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="{{ '/assets/js/md33.js' | relative_url }}"></script>
+</body>
+</html>
