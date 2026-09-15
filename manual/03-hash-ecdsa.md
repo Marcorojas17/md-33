@@ -15,3 +15,8 @@ title: 03 · Hash y ECDSA
 
 ```text
 a3f9c82e6b4d5f71b8e34d9c0f2a6e7d5b9c84e1f3d2b6a7c9e0d5f801
+
+Campo Valor
+Algoritmo ECDSA P-256
+Estado VÁLIDA
+Emisor AUTO-ANALYSIS v3.7.1
