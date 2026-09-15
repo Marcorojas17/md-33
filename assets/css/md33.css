@@ -130,3 +130,40 @@ body{
   .home-hero h1{font-size:30px}
   .nav-list{gap:14px}
 }
+
+/* ===== ASCII BOX / BANNER ===== */
+.ascii-banner,
+.doc-body pre.ascii {
+  background: #000;
+  color: var(--green);
+  border: 1px solid var(--green);
+  border-left: 4px solid var(--green);
+  padding: 18px 20px;
+  overflow-x: auto;
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.15;
+  letter-spacing: 0;
+  white-space: pre;
+  text-shadow: 0 0 6px var(--green-glow);
+  margin: 0 0 32px 0;
+  box-shadow: inset 0 0 30px rgba(0,255,65,.08), 0 0 20px rgba(0,255,65,.15);
+}
+
+.doc-body pre.ascii code {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  padding: 0;
+}
+
+/* Scrollbar neón para los ASCII anchos */
+.doc-body pre.ascii::-webkit-scrollbar { height: 8px; }
+.doc-body pre.ascii::-webkit-scrollbar-track { background: #001a08; }
+.doc-body pre.ascii::-webkit-scrollbar-thumb { background: var(--green-dim); }
+
+/* En móvil se hace scroll horizontal, no se rompe */
+@media (max-width: 720px) {
+  .doc-body pre.ascii { font-size: 10px; }
+}
