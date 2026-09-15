@@ -1,10 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <circle cx="100" cy="100" r="94" fill="#0a2540" stroke="#b8860b" stroke-width="3"/>
-  <circle cx="100" cy="100" r="80" fill="none" stroke="#b8860b" stroke-width="1.5"/>
-  <path d="M100 20 L100 180 M20 100 L180 100" stroke="#b8860b" stroke-width="1" opacity=".4"/>
-  <text x="100" y="60" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="14" font-weight="700">FISCALÍA GENERAL</text>
-  <text x="100" y="80" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="11">DEL ESTADO</text>
-  <text x="100" y="120" text-anchor="middle" fill="#b8860b" font-family="Georgia,serif" font-size="13" font-weight="700">SERVICIOS</text>
-  <text x="100" y="138" text-anchor="middle" fill="#b8860b" font-family="Georgia,serif" font-size="13" font-weight="700">PERICIALES</text>
-  <text x="100" y="164" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="9" letter-spacing="2">FORMATO MD-33</text>
+  <defs>
+    <radialGradient id="g" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#0e2f52"/>
+      <stop offset="100%" stop-color="#0a2540"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="94" fill="url(#g)" stroke="#b8860b" stroke-width="3"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#b8860b" stroke-width="1.2"/>
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#b8860b" stroke-width="0.5" opacity=".6"/>
+  <path d="M100 20 L100 180 M20 100 L180 100" stroke="#b8860b" stroke-width="0.8" opacity=".35"/>
+  <text x="100" y="58" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="13" font-weight="700" letter-spacing="1">FISCALÍA GENERAL</text>
+  <text x="100" y="76" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="10" letter-spacing="2">DEL ESTADO</text>
+  <text x="100" y="118" text-anchor="middle" fill="#b8860b" font-family="Georgia,serif" font-size="12" font-weight="700" letter-spacing="1">SERVICIOS</text>
+  <text x="100" y="134" text-anchor="middle" fill="#b8860b" font-family="Georgia,serif" font-size="12" font-weight="700" letter-spacing="1">PERICIALES</text>
+  <text x="100" y="162" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="8" letter-spacing="2.5">FORMATO MD-33</text>
 </svg>
