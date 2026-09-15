@@ -1,8 +1,8 @@
 title: MD-33 Forense
 description: Manual de Trazabilidad y Cadena de Custodia
 author: Fideicomiso Ciego 07
-baseurl: ""
-url: ""
+baseurl: "/md-33"
+url: "https://marcorojas17.github.io"
 markdown: kramdown
 permalink: pretty
 
