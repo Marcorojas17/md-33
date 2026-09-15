@@ -1,0 +1,25 @@
+title: MD-33 Forense
+description: Manual de Trazabilidad y Cadena de Custodia
+author: Fideicomiso Ciego 07
+baseurl: ""
+url: ""
+markdown: kramdown
+permalink: pretty
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: "manual"
+    values:
+      layout: manual
+  - scope:
+      path: "actas"
+    values:
+      layout: acta
+  - scope:
+      path: "evidencia"
+    values:
+      layout: manual
