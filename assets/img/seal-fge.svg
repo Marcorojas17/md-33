@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="94" fill="#0a2540" stroke="#b8860b" stroke-width="3"/>
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#b8860b" stroke-width="1.5"/>
+  <path d="M100 20 L100 180 M20 100 L180 100" stroke="#b8860b" stroke-width="1" opacity=".4"/>
+  <text x="100" y="60" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="14" font-weight="700">FISCALÍA GENERAL</text>
+  <text x="100" y="80" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="11">DEL ESTADO</text>
+  <text x="100" y="120" text-anchor="middle" fill="#b8860b" font-family="Georgia,serif" font-size="13" font-weight="700">SERVICIOS</text>
+  <text x="100" y="138" text-anchor="middle" fill="#b8860b" font-family="Georgia,serif" font-size="13" font-weight="700">PERICIALES</text>
+  <text x="100" y="164" text-anchor="middle" fill="#f5f1e8" font-family="Georgia,serif" font-size="9" letter-spacing="2">FORMATO MD-33</text>
+</svg>
