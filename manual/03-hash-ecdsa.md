@@ -20,3 +20,5 @@ Campo Valor
 Algoritmo ECDSA P-256
 Estado VÁLIDA
 Emisor AUTO-ANALYSIS v3.7.1
+
+openssl dgst -sha256 -verify pub.pem -signature firma.sig payload.bin
