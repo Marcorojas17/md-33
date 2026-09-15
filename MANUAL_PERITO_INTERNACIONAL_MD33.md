@@ -1,3 +1,8 @@
+---
+layout: manual
+title: Manual Perito Internacional MD-33
+---
+
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- MD-33 · MANUAL PERITO INTERNACIONAL · v1.0                             -->
 <!-- Estándar de verificación forense · ISO 27037 · ISO 17025               -->
