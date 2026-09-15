@@ -3,24 +3,24 @@ layout: manual
 title: Manual
 ---
 
+# 📘 Manual Forense MD-33
+
+Índice de procedimientos oficiales para el análisis, custodia y validación del **Cristal MD-33**.
+
 ```text
-╔══════════════════════════════════════════════════════════════════════════╗
-║                                                                          ║
-║   MOVIMIENTO DE CO-CREATIVIDAD SIMBIÓTICA Y RESPETO DIGITAL              ║
-║                                                                          ║
-║   Siglas: SCDR-001                                                       ║
-║   Marca: Simbiosis Digital                                               ║
-║   Producto: Sello de Respeto Digital                                     ║
-║   Metodología: KRONOS 2099                                               ║
-║                                                                          ║
-║   Registro Safe Creative: 2607086319439                                  ║
-║   Anclaje Ethereum: 0x8ca8e84e...2970e                                   ║
-║   Fecha de Fundación: 8 de julio de 2026                                 ║
-║                                                                          ║
-╚══════════════════════════════════════════════════════════════════════════╝
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  [ 01 ]  INTRODUCCIÓN         ·  Alcance y objetivos del protocolo            │
+│  [ 02 ]  CADENA DE CUSTODIA   ·  Registro legal y bloqueo INDAUTOR            │
+│  [ 03 ]  HASH Y ECDSA         ·  Verificación criptográfica                   │
+│  [ 04 ]  ESTEGANOGRAFÍA LSB   ·  Análisis de capa Alfa PNG                    │
+│  [ 05 ]  PROTOCOLO 2FA        ·  Sucesión y Dead Man's Switch                 │
+└──────────────────────────────────────────────────────────────────────────────┘
 ```
-{: .ascii }
 
-# Manual Forense MD-33
-
-Índice de procedimientos oficiales...
+| # | Documento | Descripción |
+|---|-----------|-------------|
+| 01 | [Introducción](01-introduccion.html) | Alcance y objetivos del protocolo |
+| 02 | [Cadena de Custodia](02-cadena-custodia.html) | Registro legal y bloqueo INDAUTOR |
+| 03 | [Hash y ECDSA](03-hash-ecdsa.html) | Verificación criptográfica |
+| 04 | [Esteganografía LSB](04-esteganografia.html) | Análisis de capa Alfa PNG |
+| 05 | [Protocolo 2FA](05-protocolo-2fa.html) | Sucesión y Dead Man's Switch |
