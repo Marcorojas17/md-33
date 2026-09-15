@@ -1,0 +1,29 @@
+name: Verificar documento MD-33
+
+on:
+  workflow_dispatch:
+    inputs:
+      archivo:
+        description: 'Ruta del archivo a verificar (ej. casos/DOF.pdf)'
+        required: true
+        default: 'README.md'
+      hash_esperado:
+        description: 'Hash SHA-256 esperado (opcional)'
+        required: false
+        default: ''
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Correr verificador
+        run: |
+          python src/verifica_estandar.py "${{ github.event.inputs.archivo }}" \
+            ${{ github.event.inputs.hash_esperado && format('--hash-esperado {0}', github.event.inputs.hash_esperado) || '' }}
