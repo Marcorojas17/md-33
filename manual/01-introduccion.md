@@ -3,19 +3,23 @@ layout: manual
 title: 01 · Introducción
 ---
 
-# 01 · Introducción
+# 🧬 01 · Introducción
 
 El **Cristal MD-33** es un activo forense auto-validable. Cada unidad incorpora:
 
-- Micro-grabado con hash SHA-256 embebido.
-- Firma ECDSA generada por `AUTO-ANALYSIS v3.7.1`.
-- Payload esteganográfico en capa Alfa PNG.
+```text
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  [ CRYPTO ]  SHA-256 embebido         [ SIGN ]  ECDSA P-256                  │
+│  [ ESTEGO ]  Payload capa Alfa PNG    [ TRACE ]  Cadena de custodia          │
+│  [ LEGAL  ]  Bloqueo INDAUTOR         [ 2FA   ]  Dead Man's Switch           │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
 
-## Alcance
+## 🎯 Alcance
 
 Este manual documenta el ciclo de vida del activo desde su fundición en **ALMACEN_07** hasta su custodia legal ante la **Fiscalía General del Estado**.
 
-## Definiciones
+## 📖 Definiciones
 
 | Término | Definición |
 |---------|------------|
