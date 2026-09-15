@@ -18,3 +18,8 @@ title: 02 · Cadena de Custodia
 
 ```text
 [03:21:19] TRAZA CERRADA. ARCHIVO BLOQUEADO POR INDAUTOR.
+
+
+---
+
+
